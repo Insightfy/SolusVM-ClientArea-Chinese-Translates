@@ -63,7 +63,7 @@ $_lang["accountlastname"] = "姓 氏";
 $_lang["accountemailaddress"] = "电子邮箱";
 $_lang["accountcompany"] = "公司名称";
 $_lang["accountlanguage"] = "系统语言";
-$_lang["accountloginalert"] = "登入时邮件提醒";
+$_lang["accountloginalert"] = "登入邮件提醒";
 $_lang["accountupdatesettingsbutton"] = "保存设置";
 $_lang["accountchangeaccountpassword"] = "修改账户密码";
 $_lang["accountcurrentpassword"] = "现有的密码";
@@ -97,7 +97,7 @@ $_lang["viewconnectsettings"] = "查看接入设置";
 $_lang["connectionip"] = "登陆IP地址";
 $_lang["connectionport"] = "登陆端口";
 $_lang["connectionusername"] = "登陆用户名";
-$_lang["connectionpassword"] = "登陆密 码";
+$_lang["connectionpassword"] = "登陆密码";
 
 #<-- RDNS -->#
 $_lang["rdnsmanualmsg"] = "此IP地址不支持反向DNS（RDNS），请联系我们的技术支持";
@@ -263,7 +263,7 @@ $_lang["vservermemoryusagelabel"] = "内存已使用";
 $_lang["vserverdiskusagelabel"] = "硬盘大小已使用";
 $_lang["vserverbarused"] = "已使用";
 $_lang["vserverbarfree"] = "未使用";
-$_lang["vserverbarof"] = "在";
+$_lang["vserverbarof"] = "/";
 $_lang["vservertabcontrols"] = "控制";
 $_lang["vservertabgeneral"] = "生 成";
 $_lang["vserverrebootbutton"] = "重 启";
@@ -380,7 +380,7 @@ $_lang["dnserrorrecordinvaliddomus"] = "无效的域名前缀 _.my.com ";
 $_lang["dnserrorrecordinvalidnodom"] = "你必须输入一个域名";
 $_lang["dnssuccessdomaindeleted"] = "域名已经被删除";
 $_lang["dnsdeletezoneboxtitle"] = "删除域名";
-$_lang["dnsdeletezoneboxmsg"] = "<strong>你确定想删除这个域名？</strong><p>你在该域名下做的所有解析记录将被删除，该域名不在受我们系统控制。</p>";
+$_lang["dnsdeletezoneboxmsg"] = "<strong>你确定想删除这个域名？</strong><p>你在该域名下做的所有解析记录将被删除，该域名不再受我们系统管理。</p>";
 $_lang["dnsdeleterecordboxtitle"] = "删除记录";
 $_lang["dnsdeleterecordboxmsg"] = "<strong>你确定想删除这条解析记录？</strong>";
 $_lang["vserverlabelsettingsnicemu"] = "网络模拟器";
@@ -394,8 +394,8 @@ $_lang["mobilelink"] = "移动端版本";
 $_lang["webversionboxmsg"] = "<strong>您确定要切换到完整版本吗？</strong>";
 $_lang["vserverlabelsettingsdiskdriver"] = "硬盘驱动类型";
 $_lang["vserversettingsupdateddsuccess"] = "硬盘驱动类型已经修改，您需要重启您的VPS来使该设定生效";
-$_lang["vserverlabelsettingskeyboard"] = "VNC Keymap(映射)";
-$_lang["vserversettingsupdatekeyboardsuccess"] = "VNC映射已经修改，您需要重启您的VPS来使该设定生效";
+$_lang["vserverlabelsettingskeyboard"] = "VNC 键盘映射映射";
+$_lang["vserversettingsupdatekeyboardsuccess"] = "VNC键盘映射已经修改，您需要重启您的VPS来使该设定生效";
 
 #<-- Added 1.12.00 -->#
 $_lang["reinstallpassword"] = "<strong>系统密码为</strong> ";
